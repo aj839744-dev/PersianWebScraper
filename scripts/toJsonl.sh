@@ -35,7 +35,7 @@ jsonlPath=$cwd/ws/jsonl/$1
 
 rm -rf $jsonlPath
 mkdir -p $jsonlPath
-
+#good bad
 for date in $(ls $basePath); do
     year=$(echo $date | cut -d '-' -f1)
     month=$(echo $date | cut -d '-' -f2)
